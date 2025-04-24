@@ -1,5 +1,5 @@
 body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
-    background: radial-gradient(circle,#6c7a9b,#6c7a9b,#d1aa70,#d1aa70,#78604a); /* Cor de fundo da página */
+    background: radial-gradient(circle,#6c7a9b,#6c7a9b,#d1aa70,#78604a,#78604a,#78604a); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
