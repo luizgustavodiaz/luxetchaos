@@ -3,20 +3,21 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    /* justify-content: center; Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
     font-size: 1rem; /* Tamanho da fonte */
-        color: #010101; /* Cor do texto */
+    color: #010101; /* Cor do texto */
     
 }
 
 h1 {
   font-size: 2.5rem; /* Tamanho da fonte */
-  color: #78604a; /* Cor do texto */
+  color: #6c7a9b; /* Cor do texto */
+  border-radius: 3rem; /* Borda arredondada */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  
   
   }
 
@@ -46,8 +47,8 @@ h1 {
 
 .corner-image {
     position: absolute; /* Remove elements from normal document flow */
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
+    opacity: 0.8;
+   
   }
   
   .top-left {
@@ -106,6 +107,7 @@ h1 {
 footer {
     background-color: #78604a; /* Cor de fundo do rodapé */
     color: #ffffff; /* Cor do texto */
+    opacity: 0.5;
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 80%; /* Largura total da página */
@@ -120,9 +122,26 @@ footer {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 0.8rem; /* Tamanho da fonte em telas menores */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+      font-size: 2.5rem; /* Tamanho da fonte */
+      text-align: center; /* Alinha o texto ao centro */
+      letter-spacing: 0.4rem; /* Espaçamento entre letras */
     }
+
+    h2 {
+      font-size: 1rem;
+
+  }
+  .p {
+    font-size: 0.8;
+  }
+  
+  .container {
+    width: 80%;
+    align-items: center;
+    display: flex; /* Transforma o container em um container flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+    justify-content: space-around; /* Distribui os itens com espaço entre eles */
+  }
 
     section input {
         width: 10rem; /* Largura dos inputs em telas menores */
@@ -138,7 +157,7 @@ footer {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }
     .botao {
-      font-size: 1rem;
+      font-size: 0.8rem;
       align-items: center;
       display:inline;
 }
@@ -147,12 +166,29 @@ footer {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
 
+  
     h1 {
-        font-size: 0.8rem; /* Tamanho da fonte em telas pequenas */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas pequenas */
-    }
-
+        font-size: 2.5rem; /* Tamanho da fonte */
+        text-align: center; /* Alinha o texto ao centro */
+        letter-spacing: 0.4rem; /* Espaçamento entre letras */
         
+      }
+    h2 {
+        font-size: 1rem;
+
+    }
+    .p {
+      font-size: 0.8;
+    }
+    
+    .container {
+      width: 80%;
+      align-items: center;
+      display: flex; /* Transforma o container em um container flexbox */
+      flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+      justify-content: space-around; /* Distribui os itens com espaço entre eles */
+  }    
+  
     section input {
         width: 5rem; /* Largura total dos inputs em telas pequenas */
     }
@@ -175,7 +211,7 @@ footer {
         font-size: 0.5rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
     .botao {
-      font-size: 1rem;
+      font-size: 0.8rem;
       align-items: center;
       display:inline;
     }
