@@ -11,12 +11,14 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     
 }
 
-h1 {
-  font-size: 2.5rem; /* Tamanho da fonte */
+.nome {
+  font-size: 2rem; /* Tamanho da fonte */
   color: #6c7a9b; /* Cor do texto */
   border-radius: 3rem; /* Borda arredondada */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  text-decoration: none;
+  
   
   
   }
