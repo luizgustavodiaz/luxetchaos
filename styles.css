@@ -1,5 +1,5 @@
 body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
-    background: radial-gradient(circle,#d1aa70,#6c7a9b,#6c7a9b,#453a2e,#453a2e,#453a2e,#453a2e); /* Cor de fundo da página */
+    background: radial-gradient(circle,#d1aa70,#092965,#092965,#092965,black,black,black); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -24,7 +24,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
 
   h2 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #010101; /* Cor do texto */
+    color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     
@@ -39,8 +39,8 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     justify-content: space-between;
     font-family: 'Times New Roman', serif;
     font-size: 1.2rem;
-    background:radial-gradient(circle,#d1aa70,#d1aa70,#d1aa70,#453a2e);
-    color:#010101;
+    background:radial-gradient(circle,#d1aa70,#092965,#092965,black);
+    color:white;
     text-align: center;
     border-radius: 8px;
     padding: 10px 10px 10px 10px;
@@ -90,7 +90,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
 }
 
   .Deorum {
-    background: radial-gradient(circle,#6c7a9b,#d1aa70 ) ; /* Cor de fundo dos itens */
+    background: radial-gradient(circle,#092965,#092965,black) ; /* Cor de fundo dos itens */
     padding: 1rem; /* Espaçamento interno */
     margin-left: 3rem; /* Espaçamento abaixo dos itens */
     flex: 1; /* Permite que cada item ocupe o espaço disponível */
@@ -104,7 +104,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     border-radius: 3rem; /* Borda arredondada */
     flex-direction: column;
     font-size: 1rem;
-    color: #010101;
+    color: white;
     text-align: center;
     
     
@@ -116,7 +116,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
      
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #453a2e; /* Cor de fundo do rodapé */
+    background-color: black; /* Cor de fundo do rodapé */
     color: #ffffff; /* Cor do texto */
     opacity: 0.9;
     text-align: center; /* Alinha o texto ao centro */
