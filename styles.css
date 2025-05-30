@@ -39,7 +39,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     justify-content: space-between;
     font-family: 'Times New Roman', serif;
     font-size: 1.2rem;
-    background:radial-gradient(circle,#d1aa70,#092965,#092965,black);
+    background:radial-gradient(circle,#092965,#092965,black);
     color:white;
     text-align: center;
     border-radius: 8px;
