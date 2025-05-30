@@ -118,7 +118,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
 footer {
     background-color: black; /* Cor de fundo do rodapé */
     color: #ffffff; /* Cor do texto */
-    opacity: 0.9;
+    opacity: 0.7;
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 80%; /* Largura total da página */
