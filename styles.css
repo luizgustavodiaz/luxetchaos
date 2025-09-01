@@ -126,7 +126,7 @@ footer {
     opacity: 0.7;
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
-    width: 80%; /* Largura total da página */
+    width: 70%; /* Largura total da página */
     position: fixed; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
@@ -212,4 +212,5 @@ footer {
       display:inline;
     }
     
+
 }
