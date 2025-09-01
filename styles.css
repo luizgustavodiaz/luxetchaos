@@ -1,5 +1,5 @@
 body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
-    background: radial-gradient(circle,#7d605b,#171717,#171717,#171717); /* Cor de fundo da página */
+    background: radial-gradient(circle,#758489,#27383e,#27383e,#27383e); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -13,7 +13,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
 
 .nome {
   font-size: 1.5rem; /* Tamanho da fonte */
-  color: #eacaa9; /* Cor do texto */
+  color: #008878; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
   text-decoration: none;
@@ -44,7 +44,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
     justify-content: space-between;
     font-family: 'Times New Roman', serif;
     font-size: 1.2rem;
-    background:radial-gradient(circle,#7d605b,#7d605b,#7d605b,#171717);
+    background:radial-gradient(circle,#008878,#008878,#27383e);
     color:#eacaa9;
     text-align: center;
     border-radius: 8px;
@@ -96,7 +96,7 @@ body{font-family: "Times New Roman", sans-serif; /* Define a fonte padrão */
 }
 
   .Deorum {
-    background: radial-gradient(circle,#7d605b,#171717,#171717) ; /* Cor de fundo dos itens */
+    background: radial-gradient(circle,#758489,#27383e,#27383e) ; /* Cor de fundo dos itens */
     padding: 1rem; /* Espaçamento interno */
     margin-left: 3rem; /* Espaçamento abaixo dos itens */
     flex: 1; /* Permite que cada item ocupe o espaço disponível */
